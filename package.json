@@ -17,10 +17,10 @@
     "copy:lo-smartcontract-docs": "git submodule update --remote --merge && rimraf docs/limit-order-protocol/smart-contract/* && cp -R git-submodules/limit-order-protocol/docgen/docs/* docs/limit-order-protocol/smart-contract/ && touch docs/limit-order-protocol/smart-contract/_category_.json && echo '{\"label\": \"Smart contracts\",\"position\": 4}' > docs/limit-order-protocol/smart-contract/_category_.json"
   },
   "dependencies": {
-    "@docusaurus/core": "2.1.0",
-    "@docusaurus/preset-classic": "2.1.0",
+    "@docusaurus/core": "3.3.2",
+    "@docusaurus/preset-classic": "3.3.2",
     "@mdx-js/react": "^1.6.21",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^8.1.0",
     "buffer": "^6.0.3",
     "clsx": "^1.1.1",
     "docusaurus-plugin-search-local": "1.0.1",
@@ -28,8 +28,8 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "redoc": "^2.0.0-rc.57",
-    "swagger-ui-react": "4.15.5",
+    "redoc": "^2.1.4",
+    "swagger-ui-react": "4.19.1",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
